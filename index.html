@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güzel Sözler ve Tavsiyeler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Güzel Sözler ve Tavsiyeler</h1>
+            <div id="quoteContainer" class="quote-container">
+                <p id="quote">Burada güzel bir söz ya da tavsiye görünecek...</p>
+            </div>
+            <button onclick="generateQuote()">Yeni Bir Söz/Tavsiye Ver</button>
+            <button onclick="likeQuote()">Beğen</button>
+            <p id="visitorCount">Ziyaretçi Sayısı: 0</p>
+        </div>
+        <div class="top-quotes-container">
+            <h2>En Çok Sevilen Sözler</h2>
+            <div id="topQuotes">
+                <p>Henüz beğenilen söz yok...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
